@@ -7,7 +7,7 @@ const FilePathHeader = require('../lib/index');
 program
   .version('1.0.0')
   .description('Add file paths as comments to source files')
-  .argument('[directory]', 'Target directory', './src')
+  .argument('[directory]', 'Target directory (defaults to current directory)', '.')
   .option('-i, --ignore <patterns...>', 'Files to ignore')
   .option('-c, --config <path>', 'Path to config file')
   .action(async (directory, options) => {
