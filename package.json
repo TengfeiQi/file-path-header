@@ -1,7 +1,7 @@
 {
   "name": "file-path-header",
   "version": "1.0.0",
-  "description": "Automatically add file path as a comment header to your source files",
+  "description": "Add file paths as comments to source files",
   "main": "lib/index.js",
   "bin": {
     "file-path-header": "./bin/cli.js"
@@ -16,8 +16,16 @@
     "header",
     "source code"
   ],
-  "author": "https://github.com/tengfeiqi",
+  "author": "TengfeiQi <qitengfeilove@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tengfeiqi/file-path-header.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tengfeiqi/file-path-header/issues"
+  },
+  "homepage": "https://github.com/tengfeiqi/file-path-header#readme",
   "dependencies": {
     "commander": "^8.3.0"
   }
