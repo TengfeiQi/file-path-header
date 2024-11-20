@@ -1,0 +1,24 @@
+{
+  "name": "file-path-header",
+  "version": "1.0.0",
+  "description": "Automatically add file path as a comment header to your source files",
+  "main": "lib/index.js",
+  "bin": {
+    "file-path-header": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "path",
+    "comment",
+    "header",
+    "source code"
+  ],
+  "author": "https://github.com/tengfeiqi",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0"
+  }
+}
